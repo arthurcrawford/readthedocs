@@ -124,3 +124,8 @@ Bug!  If you now hit the button "View your documentation" the URL you are sent t
 Of course, we don't want localhost, we want `192.168.99.100` or something like that for our Docker container.  Clearly we are missing some configuration in the Django set up to tell the Django app what the server is called.  Need to figure this one out still.  Until fixed, just substitute the correct URL in the browser to see your docs.
 
     http://192.168.99.100:8000/docs/mkdocstest/en/stable/
+    
+TODO:
+
+* Fix localhost problem
+* Make it work with on-prem GitHub
